@@ -1,0 +1,111 @@
+.heading-color {
+    font-size: 23px;
+    font-weight: 500;
+    color: #433f3f;
+    width: 48%;
+}
+
+.service-container .h-color {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.service-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* width: 21%; */
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 35px 17px;
+}
+
+.service-card h6 {
+    color: #222222;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.service-card .heading-5 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.service-card p {
+    width: 93%;
+}
+
+.right-service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap: 26px;
+}
+
+.fa-car,
+.fa-plane-departure,
+.fa-building,
+.fa-car {
+    color: #ffc42b;
+    font-size: 30px;
+}
+
+.hr-color {
+    background-color: #fce5d5;
+    height: 4px;
+    width: 133px;
+    font-weight: 100;
+    border: none;
+}
+
+.service-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 55px;
+    place-items: center;
+    padding-bottom: 60px;
+    gap: 45px;
+    background: #f9f9f9;
+    margin-top: 471px;
+}
+
+.left-service-container {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.h5-color {
+    color: #ffc42b;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.h3-color {
+    font-size: 37px;
+    width: 64%;
+}
+
+.outer-service-card {
+    background: #f9f9f9;
+}
+
+.heading-5:hover {
+    color: rgb(28, 27, 27);
+}
+
+@media screen and (max-width:380px) {
+    .service-container {
+        margin-top: 650px;
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width:440px) {
+
+    .service-container {
+        margin-top: 674px;
+        padding: 0px 30px;
+    }
+}

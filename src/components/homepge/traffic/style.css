@@ -1,0 +1,84 @@
+.traffic-container h5 {
+    color: #ffc42b;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.traffic-container h3 {
+    color: #222222;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.traffic-container {
+    background-color: #efeefa;
+    padding-top: 53px;
+    padding-bottom: 60px;
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+
+.traffic-card {
+    border-radius: 15px;
+    padding: 32px 25px 32px 70px;
+}
+
+.outer-container-00 {
+    background-color: #efeefa;
+}
+
+.traffic-00 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 29px;
+    /* place-items: center; */
+}
+
+.inner-traiffic-1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.plan {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.span-0 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3a3737;
+}
+
+.btnnn {
+    background: #fff3dd;
+    border-radius: 29px;
+    color: orange;
+    padding: 11px 56px;
+}
+@media screen and (max-width:380px) {
+    .traffic-container {
+        padding: 0px 30px;
+        padding-bottom: 42px;
+        padding-top: 26px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .traffic-container {
+        padding: 0px 30px;
+        padding-bottom: 42px;
+        padding-top: 26px;
+    }
+}

@@ -1,0 +1,131 @@
+.vehicle-conatiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 60px;
+    display: grid;
+    gap: 29px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.right-vehicle h3 {
+    color: #222222;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.right-vehicle h3:hover {
+    color: #ffc42b;
+}
+
+.bags {
+    font-size: 16px;
+    color: #ffc42b;
+    font-weight: 400;
+    list-style-type: disc;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.para-0 {
+    width: 68%;
+    text-align: center;
+}
+
+.vehicle-span1 {
+    font-size: 20px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.vehicle-btn {
+    border-radius: 23px;
+    padding: 8px 22px;
+    color: white;
+    font-weight: 600;
+    background-color: #3e3c3c;
+}
+
+.vehicle-btn:hover {
+    background-color: #ffc42b;
+}
+
+.card {
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 2px solid #e9e6f3;
+    display: flex;
+    padding: 15px;
+}
+
+.right-vehicle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vehicle-end {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.h-1 h5 {
+    color: #ffc42b;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.h-1 h3 {
+    color: #222222;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cars {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.vehicle-00 {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.cars img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .hr-vehicle {
+    background-color: grey;
+    width: 270px;
+    height: 5px;
+} */
+.hr-vehicle {
+    border: 2px solid #dcdada;
+    width: 29%;
+    margin: auto;
+    margin-top: -78px;
+    margin-bottom: 46px;
+}
+
+.left-vehicle img:hover {
+    transform: scale(1.1) !important;
+    transition: all 0.3s;
+}
+
+.left-vehicle {
+    overflow: hidden !important;
+}

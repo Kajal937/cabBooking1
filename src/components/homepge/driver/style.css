@@ -1,0 +1,103 @@
+.driver-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 8px;
+    place-items: center;
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+
+.driver-first p {
+    width: 99%;
+    text-align: center;
+}
+
+.right-driver h4 {
+    color: #222222;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.right-driver p {
+    width: 100%;
+    text-align: center;
+}
+
+.driver-first h6 {
+    color: #ffc42b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading-0 {
+    color: #ffc42b;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.heading-00 {
+    color: #222222;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.driver-card {
+    display: grid;
+    gap: 12px;
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.outer-diriver-card {
+    padding-top: 53px;
+    padding-bottom: 60px;
+}
+
+.driver-btn button {
+    background: #383737;
+    color: white;
+    border-radius: 24px;
+    padding: 11px 24px;
+    /* display: block;
+    text-align: center;
+    margin-top: 47px; */
+}
+
+.driver-btn button:hover {
+    background-color: #ffc42b;
+}
+
+.driver-btn {
+    display: block;
+    text-align: center;
+    margin-top: 47px;
+}
+
+.left-driver img:hover {
+    transform: scale(1.1) !important;
+    transition: all 0.3s;
+}
+
+.left-driver {
+    overflow: hidden !important;
+}
+
+
+@media screen and (max-width:380px) {
+    .outer-diriver-card{
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .outer-diriver-card {
+        padding: 0px 30px;
+
+    }
+}

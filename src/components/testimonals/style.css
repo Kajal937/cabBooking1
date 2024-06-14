@@ -1,0 +1,123 @@
+/* .left-testimonsla {
+    width: 30%;
+} */
+
+.right-testimonals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-gap: 29px;
+    /* width: 70%; */
+}
+
+.testimonals-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-gap: 26px;
+    place-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+.testimonals-card1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background: white;
+    padding: 17px;
+}
+
+.testimonals-img {
+    display: flex;
+    gap: 8px;
+    /* width: 80%; */
+}
+
+.testimonals-para {
+    margin-top: 18px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #f4f4f4;
+    padding: 8px;
+}
+
+.left-testimonsla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-testimonsla h4 {
+    color: #ffc42b;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.left-testimonsla h1 {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.users-rate {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    padding: 21px 0px 21px 42px;
+    /* width: 76%; */
+    margin-top: 30px;
+}
+
+.users-rate {
+    padding: 21px 0px 21px 42px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #f4f4f4;
+}
+
+.fa-award {
+    color: #ffc42b;
+    font-size: 42px;
+}
+
+.users-rate h2 {
+    font-size: 16px;
+    font-weight: 600;
+    width: 61%;
+}
+
+.heading-testimonals h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #393535;
+}
+
+.heading-testimonals h6 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #393535;
+}
+
+@media screen and (max-width:800px) {
+    .testimonals-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (max-width:380px) {
+    .testimonals-container {
+        padding: 0px 30px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .testimonals-container  {
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+}
