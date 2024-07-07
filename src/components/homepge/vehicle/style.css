@@ -5,7 +5,7 @@
     padding-bottom: 60px;
     display: grid;
     gap: 29px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(429px, 1fr));
 }
 
 .right-vehicle h3 {
@@ -126,6 +126,14 @@
     transition: all 0.3s;
 }
 
-.left-vehicle {
-    overflow: hidden !important;
+@media screen and (max-width: 400px){
+    .card{
+        width: 86%;
+       flex-direction: column;
+        }
+        .left-vehicle{
+display: flex;
+align-items: center;
+justify-content: center;
+        }
 }
